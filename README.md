@@ -4,6 +4,8 @@ This Plugin is made by MasterPlayz0000
 
 My discord is MasterPlayz#2004
 
+And this plugin currently works only for zombies because pmmp does not have other entities registered and am lazy to register them if u want me to let me know thank you.
+
 The plugin has some simple functions such as adding removing and getting the amount of coins
 # How to get the plugin on to another
 
