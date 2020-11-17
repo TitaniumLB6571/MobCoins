@@ -1,0 +1,14 @@
+##############################
+##    Mob Coins Config      ##
+##    By MasterPlayz0000    ##
+##                          ##
+##    MasterPlayz#2004      ##
+##############################
+
+##This is the starting amount of coins each player gets
+##0 is Recomended
+start: 0
+
+##amount of coins u get when u kill a zombie 
+##its rare since its random
+zombie_coin: 1
