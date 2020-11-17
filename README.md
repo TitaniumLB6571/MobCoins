@@ -18,7 +18,7 @@ $this->mc = $this->getServer()->getPluginManager()->getPlugin("MobCoins");
 On the $amount you can add any integer
 
 ```php
-/**var
+/** @var
 * Player $player
 * Int $amount **/
 $this->mc->addCoin($player, $amount);
@@ -29,7 +29,7 @@ $this->mc->addCoin($player, $amount);
 On the $amount you can add any integer
 
 ```php
-/**var
+/** @var
 * Player $player
 * Int $amount **/
 $this->mc->takeCoin($player, $amount);
@@ -38,7 +38,7 @@ $this->mc->takeCoin($player, $amount);
 # Check Coins
 
 ```php
-/** 
+/** @var
 * Player $player **/
 $this->mc->getCoins($player);
 ```
