@@ -16,6 +16,8 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\entity\Zombie;
 
+   public $cfg;
+
    public function onEnable() {
         @mkdir($this->getDataFolder());
         $this->cfg = $this->getConfig();
