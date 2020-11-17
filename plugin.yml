@@ -1,0 +1,31 @@
+name: MobCoins
+main: Master\Mob
+api: 3.14.0
+author: MasterPlayz0000
+version: 1
+description: A mob coins plugin made by MasterPlayz0000 discord MasterPlayz#2004
+
+commands:
+  mc:
+    give:
+      usage: /mc give <player> <amount>
+      description: Give MobCoins
+      permission: mc.give
+    take:
+      usage: /mc take <player> <amount>
+      description: Take MobCoins
+      permission: mc.take
+    help:
+      usage: /mc help
+      description: List of MobCoin Ccommands
+    coins:
+      usage: /mc coins <player>
+      description: Check MobCoins
+
+permissions:
+  mc.give:
+    default: op
+    description: give permission
+  mc.take:
+    default: op
+    description: take permission
